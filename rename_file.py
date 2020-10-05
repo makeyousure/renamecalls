@@ -1,7 +1,8 @@
 import os
 from os.path import isfile, join
+from variable import catalog_dir
 
-catalog_dir = "D:/Разное/Call/"
+
 bad_chars = ['§']
 only_files = os.listdir(catalog_dir)
 
